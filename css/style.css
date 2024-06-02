@@ -1,0 +1,206 @@
+@import url("https://fonts.googleapis.com/css2?family=Nova+Round&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nova Round", system-ui;
+  font-style: normal;
+}
+
+/* --- Header --- */
+
+header {
+  height: 10vh;
+  padding: 25px;
+  margin-top: 20px;
+  border-bottom: 1px solid #c6c6c6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header img {
+  height: 25px;
+}
+
+header a {
+  text-decoration: none;
+  color: #9d9c9c;
+  padding: 0 22px;
+  font-size: 22px;
+}
+
+.my-profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  height: 80vh;
+}
+.my-profile .profile-left,
+.my-profile .profile-right {
+  width: 32%;
+  margin: 0 20px;
+  /* background-color: lightblue; */
+}
+.my-profile .profile-left h1,
+.my-profile .profile-left p,
+.my-profile .profile-left hr {
+  margin: 0 20px;
+}
+.my-profile .profile-left h1 {
+  font-size: 75px;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+.my-profile .profile-left p {
+  color: #9d9c9c;
+  font-size: 21px;
+  padding: 45px 0 15px;
+}
+
+.my-profile .profile-left hr {
+  background-color: #c6c6c6;
+  height: 1px;
+  border: none;
+}
+.my-profile .profile-left .button {
+  width: 280px;
+  margin: 35px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 21px;
+  padding: 10px 15px 10px 25px;
+  background-color: white;
+  outline: none;
+  border: 2px solid black;
+  border-radius: 40px;
+  text-decoration: none;
+  color: black;
+}
+.my-profile .profile-left .button img {
+  height: 45px;
+  background-color: black;
+  padding: 10px;
+  border-radius: 50%;
+  margin-left: 15px;
+}
+
+.my-profile .profile-left .button:hover {
+  cursor: pointer;
+}
+
+.my-profile .profile-right {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.my-profile .profile-right > img {
+  height: 535px;
+  width: 405px;
+  object-fit: cover;
+  border: 10px solid white;
+  border-top-left-radius: 1000px;
+  border-top-right-radius: 1000px;
+}
+.my-profile .profile-right .shadow {
+  height: 535px;
+  width: 405px;
+  position: absolute;
+  left: 85px;
+  top: 25px;
+  z-index: -1;
+  border-top-left-radius: 1000px;
+  border-top-right-radius: 1000px;
+  background-color: #e3dafe;
+}
+.my-profile .profile-right .ball {
+  position: absolute;
+  border-radius: 50%;
+}
+.my-profile .profile-right .ball.rose {
+  background-color: #ffbcc4;
+  left: 70px;
+  top: 30px;
+  height: 105px;
+  width: 105px;
+}
+.my-profile .profile-right .ball.green {
+  background-color: #38ffbc;
+  left: 25px;
+  bottom: 50px;
+  height: 70px;
+  width: 70px;
+}
+
+.my-profile .profile-right .ball.yellow {
+  background-color: #ffebb9;
+  right: 60px;
+  top: 60px;
+  height: 60px;
+  width: 60px;
+}
+
+.my-profile .profile-right .ball.blue {
+  background-color: #a8c4e9;
+  right: 65px;
+  top: 130px;
+  height: 27px;
+  width: 27px;
+}
+
+.my-profile .profile-right .ball.rose-2 {
+  background-color: #ffbcc4;
+  right: 150px;
+  bottom: -45px;
+  height: 27px;
+  width: 27px;
+}
+
+.my-profile .profile-right .socials {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 15px;
+  bottom: 12px;
+}
+
+.my-profile .profile-right .socials .social {
+  background-color: #e3dafe;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 15px;
+  border-radius: 50px;
+  margin: 7px 0;
+  text-decoration: none;
+}
+
+.my-profile .profile-right .socials .social .icon-social {
+  border: none;
+  height: 40px;
+  width: 40px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.my-profile .profile-right .socials .social .icon-social > img {
+  height: 20px;
+  width: 20px;
+}
+.my-profile .profile-right .socials .social h3 {
+  font-weight: normal;
+  font-size: 22px;
+  padding: 0 10px;
+  margin-left: 10px;
+  color: black;
+}
