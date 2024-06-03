@@ -35,7 +35,7 @@ header a {
   display: flex;
   justify-content: center;
   align-items: center;
-  
+
   height: 80vh;
 }
 .my-profile .profile-left,
@@ -203,4 +203,438 @@ header a {
   padding: 0 10px;
   margin-left: 10px;
   color: black;
+}
+
+.my-works {
+  background-color: #f3f7ff;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 0;
+}
+.my-works .flap {
+  height: 55px;
+  position: absolute;
+  top: -70px;
+  left: 320px;
+  background-color: #f3f7ff;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  padding: 35px 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.my-works .flap i {
+  margin: 0 5px;
+}
+
+.my-works .flap h2 {
+  font-weight: normal;
+  margin: 0 10px;
+}
+.my-works .project {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 0;
+  border-bottom: 2px solid #d5d5d5;
+}
+
+.my-works .project .gallery {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.my-works .project .gallery .others {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.my-works .project .gallery .others .other {
+  border: 10px solid white;
+  margin: 10px 0;
+  box-shadow: 1px 1px 5px -1px rgba(0, 0, 0, 0.17);
+  -webkit-box-shadow: 1px 1px 5px -1px rgba(0, 0, 0, 0.17);
+  -moz-box-shadow: 1px 1px 5px -1px rgba(0, 0, 0, 0.17);
+}
+
+.my-works .project .gallery .principal {
+  margin: 0 100px;
+}
+
+.my-works .project .gallery .principal img {
+  width: 470px;
+  border-top-left-radius: 1000px;
+  border-top-right-radius: 1000px;
+  border: 10px solid white;
+}
+.my-works .project .info-project {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+.my-works .project .info-project h3 {
+  color: #9e9eff;
+  font-weight: 500;
+  font-size: 35px;
+  margin: 0;
+  padding: 0;
+}
+
+.my-works .project .info-project h2 {
+  font-weight: 500;
+  font-size: 50px;
+  padding: 5px 0 20px;
+  border-bottom: 2px solid #d5d5d5;
+}
+
+.my-works .project .info-project p {
+  color: #929292;
+  font-size: 20px;
+  padding: 25px 0;
+}
+.my-works .project .info-project .button {
+  width: 230px;
+  margin: 35px 0 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 21px;
+  padding: 10px 15px 10px 25px;
+  background-color: white;
+  outline: none;
+  border: 2px solid black;
+  border-radius: 40px;
+  text-decoration: none;
+  color: black;
+  align-self: flex-end;
+}
+.my-works .project .info-project .button img {
+  height: 45px;
+  background-color: black;
+  padding: 10px;
+  border-radius: 50%;
+  margin-left: 15px;
+  transform: rotate(-90deg);
+}
+
+.my-works > .button {
+  width: 720px;
+  position: relative;
+  top: 40px;
+  left: 340px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 21px;
+  padding: 10px 15px 10px 25px;
+  margin: 0 0 60px;
+  background-color: white;
+  outline: none;
+  border: 2px solid black;
+  border-radius: 40px;
+  text-decoration: none;
+  color: black;
+  align-self: flex-start;
+}
+
+.my-works > .button:hover {
+  cursor: pointer;
+}
+
+.my-experiences {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 80px 0 130px;
+}
+.my-experiences .flap {
+  height: 55px;
+  position: absolute;
+  top: -70px;
+  right: 330px;
+  background-color: white;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  padding: 35px 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.my-experiences .flap i {
+  margin: 0 5px;
+}
+
+.my-experiences .flap h2 {
+  font-weight: normal;
+  margin: 0 10px;
+  font-size: 20px;
+}
+
+.my-experiences > h2 {
+  padding: 0 0 40px;
+  font-size: 55px;
+  font-weight: 500;
+  border-bottom: 1px solid #d5d5d5;
+}
+
+.my-experiences .experiences {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
+  /* grid-gap: 25px; */
+  grid-row-gap: 30px;
+  grid-column-gap: 50px;
+  padding: 50px 0 0;
+}
+.my-experiences .experiences .experience {
+  width: 600px;
+}
+.my-experiences .experiences .experience .head-experience {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 0 0 15px;
+}
+
+.my-experiences .experiences .experience .head-experience i {
+  color: #e1e1ff;
+  font-size: 25px;
+}
+
+.my-experiences .experiences .experience .head-experience .job-name {
+  margin: 0 20px;
+}
+
+.my-experiences .experiences .experience .head-experience .job-name h3 {
+  font-weight: 500;
+  font-size: 21px;
+}
+.my-experiences .experiences .experience .head-experience .job-name p {
+  color: #8c8c8c;
+  font-size: 18px;
+  margin: 5px 0;
+}
+
+.my-experiences .experiences .experience .head-experience p {
+  color: #8c8c8c;
+  font-size: 21px;
+}
+
+.my-experiences .experiences .experience .job-description {
+  font-size: 22px;
+  color: #8c8c8c;
+}
+.my-experiences .separator {
+  height: 1px;
+  width: 580px;
+  background-color: #d5d5d5;
+  /* margin: 25px 0; */
+}
+
+.my-offers {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 80px 0 230px;
+  background-color: #f3f7ff;
+}
+.my-offers .flap {
+  height: 55px;
+  position: absolute;
+  top: -70px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #f3f7ff;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  padding: 35px 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.my-offers .flap i {
+  margin: 0 5px;
+}
+
+.my-offers .flap h2 {
+  font-weight: normal;
+  margin: 0 10px;
+  font-size: 20px;
+}
+.my-offers img {
+  position: absolute;
+  right: 120px;
+  top: 45%;
+  transform: translateY(-50%);
+}
+.my-offers > h2 {
+  padding: 0 0 40px;
+  font-size: 55px;
+  font-weight: 500;
+}
+.my-offers .offers {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
+  grid-row-gap: 120px;
+  grid-column-gap: 40px;
+  padding: 60px 0;
+  position: relative;
+  right: 150px;
+}
+.my-offers .offers .offer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 420px;
+}
+
+.my-offers .offers .offer .item p {
+  font-size: 27px;
+  background-color: #e1e1ff;
+  padding: 20px 25px;
+  border: 10px solid white;
+}
+
+.my-offers .offers .offer .offer-detail {
+  margin: 0 25px;
+}
+.my-offers .offers .offer .offer-detail > h3 {
+  font-weight: 500;
+}
+.my-offers .offers .offer .offer-detail > p {
+  padding: 10px 0;
+  font-size: 20px;
+  color: #9c9b9c;
+}
+
+.my-contact {
+  height: 230px;
+  position: relative;
+}
+
+.my-contact .contact {
+  background-color: #f3f7ff;
+  border: 10px solid white;
+  width: 65%;
+  margin: 0 auto;
+  padding: 75px 0 25px;
+  border-radius: 35px;
+  box-shadow: 1px 1px 5px -1px rgba(0, 0, 0, 0.17);
+  -webkit-box-shadow: 1px 1px 5px -1px rgba(0, 0, 0, 0.17);
+  -moz-box-shadow: 1px 1px 5px -1px rgba(0, 0, 0, 0.17);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: -200px;
+  left: 50%;
+  z-index: 9;
+  transform: translateX(-50%);
+}
+.my-contact .contact h2 {
+  font-size: 55px;
+  text-align: center;
+  font-weight: 500;
+}
+.my-contact .contact .button {
+  width: 280px;
+  margin: 35px auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 21px;
+  padding: 10px 15px 10px 25px;
+  background-color: white;
+  outline: none;
+  border: 2px solid black;
+  border-radius: 40px;
+  text-decoration: none;
+  color: black;
+}
+.my-contact .contact .button img {
+  height: 45px;
+  background-color: black;
+  padding: 10px;
+  border-radius: 50%;
+  transform: rotate(-90deg);
+}
+
+.my-contact .contact .button:hover {
+  cursor: pointer;
+}
+.my-contact .contact .parts .part {
+  position: absolute;
+  z-index: -1;
+}
+.my-contact .contact .parts .part-1 {
+  top: 30px;
+  right: 70px;
+}
+
+.my-contact .contact .parts .part-2 {
+  top: 120px;
+  left: 50px;
+}
+
+.my-contact .contact .parts .part-3 {
+  top: 30px;
+  left: 210px;
+}
+
+.my-contact .contact .parts .part-4 {
+  bottom: 120px;
+  right: 250px;
+}
+
+.my-contact .contact .parts .part-5 {
+  bottom: 40px;
+  left: 360px;
+}
+
+.my-contact .contact .parts .part-6 {
+  bottom: 40px;
+  right: 150px;
+}
+
+footer {
+  height: 10vh;
+  padding: 25px;
+  margin-top: 20px;
+  border-top: 1px solid #c6c6c6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer img {
+  height: 25px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #9d9c9c;
+  padding: 0 22px;
+  font-size: 22px;
 }
