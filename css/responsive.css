@@ -1,0 +1,425 @@
+@media (max-width: 1440px) {
+  .my-experiences .flap {
+    right: 110px;
+    padding: 25px 30px;
+    top: -55px;
+  }
+}
+
+@media (max-width: 1367px) {
+  .my-experiences > h2 {
+    font-size: 45px;
+  }
+  .my-experiences .experiences .experience {
+    width: 500px;
+  }
+  .my-experiences .separator {
+    width: 480px;
+  }
+  .my-experiences .experiences .experience .job-description {
+    font-size: 19px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .my-profile {
+    width: 100vw;
+  }
+  .my-profile .profile-left,
+  .my-profile .profile-right {
+    margin: 0;
+    width: 50%;
+  }
+  .my-profile .profile-left .button {
+    margin: 35px 20px;
+  }
+  .my-profile .profile-right .shadow {
+    left: 35px;
+  }
+  .my-profile .profile-right .socials {
+    right: 45px;
+    align-items: flex-end;
+  }
+  .my-profile .profile-right .ball.rose {
+    left: 20px;
+    top: 40px;
+  }
+  .my-profile .profile-right .ball.green {
+    left: -25px;
+    bottom: 70px;
+  }
+
+  .my-profile .profile-right .ball.yellow {
+    right: 40px;
+  }
+
+  .my-profile .profile-right .ball.blue {
+    right: 35px;
+  }
+
+  .my-profile .profile-right .ball.rose-2 {
+    right: 100px;
+  }
+
+  .my-works .project {
+    width: 90%;
+    /* background-color: red; */
+  }
+  .my-works .project .gallery .principal {
+    margin: 0 30px;
+  }
+  .my-works .project .gallery .principal img {
+    width: 350px;
+  }
+  .my-works .project .gallery .others .other {
+    width: 100px;
+  }
+  .my-works > .button {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .my-works .project .info-project {
+    width: 350px;
+  }
+  .my-works .project .info-project h3 {
+    font-size: 30px;
+  }
+  .my-works .project .info-project h2 {
+    font-size: 40px;
+  }
+  .my-works .project .info-project p {
+    font-size: 17px;
+  }
+  .my-works .project .info-project .button {
+    width: 200px;
+    font-size: 18px;
+    padding: 8px 15px 8px 15px;
+  }
+  .my-experiences .experiences {
+    width: 100vw;
+    grid-column-gap: 0px;
+  }
+  .my-experiences .experiences .experience {
+    width: 350px;
+    margin: 0 auto;
+  }
+
+  .my-experiences .experiences .separator {
+    margin: 0 auto;
+  }
+  .my-experiences .separator {
+    width: 330px;
+  }
+  .my-experiences .experiences .experience .head-experience .job-name h3 {
+    font-size: 17px;
+  }
+
+  .my-experiences .experiences .experience .head-experience .job-name p {
+    font-size: 16px;
+  }
+  .my-experiences .experiences .experience .head-experience p {
+    font-size: 15px;
+  }
+  .my-experiences .experiences .experience .job-description {
+    font-size: 17px;
+  }
+  .my-offers {
+    padding: 80px 0 150px;
+  }
+  .my-offers img {
+    display: none;
+  }
+
+  .my-offers > h2 {
+    font-size: 40px;
+  }
+  .my-offers .offers {
+    right: 0;
+    grid-column-gap: 20px;
+    grid-row-gap: 80px;
+    width: 100vw;
+  }
+  .my-offers .offers .offer {
+    width: 350px;
+    margin: 0 auto;
+  }
+  .my-offers .offers .offer .offer-detail > h3 {
+    font-size: 17px;
+  }
+  .my-offers .offers .offer .offer-detail > p {
+    font-size: 15px;
+  }
+
+  .my-contact .contact {
+    width: 90%;
+  }
+  .my-contact .contact h2 {
+    font-size: 45px;
+  }
+  .my-contact .contact .button {
+    font-size: 17px;
+    width: 220px;
+  }
+  .my-contact .contact .button img {
+    height: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  header {
+    position: absolute;
+    top: 0;
+    z-index: 6;
+    width: 100vw;
+    margin-top: 0;
+  }
+  header a {
+    color: white;
+  }
+  .my-profile {
+    flex-direction: column;
+    justify-content: flex-start;
+    position: relative;
+    height: 100%;
+  }
+  .my-profile .profile-left {
+    position: absolute;
+    top: 50%;
+    z-index: 5;
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+  .my-profile .profile-right::after {
+    position: absolute;
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 3;
+    content: "";
+  }
+  .my-profile .profile-left {
+    color: white;
+  }
+  .my-profile .profile-left h1 {
+    font-size: 50px;
+  }
+  .my-profile .profile-left p {
+    color: white;
+  }
+  .my-profile .profile-right {
+    min-height: 100vh;
+    width: auto;
+    /* background-color: red; */
+  }
+  .my-profile .profile-left .button {
+    margin: 35px auto;
+  }
+
+  .my-profile .profile-right > img {
+    height: 100vh;
+    width: 100vw;
+    border: none;
+  }
+  .my-profile .profile-right .shadow {
+    display: none;
+  }
+  .my-profile .profile-right .ball {
+    display: none;
+  }
+  .my-profile .profile-right .socials {
+    right: 50%;
+    transform: translateX(50%);
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100vw;
+    /* background-color: red; */
+  }
+  .my-profile .profile-right .socials .social {
+    margin: 0;
+  }
+  .my-works .flap {
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+    padding: 15px 20px;
+    top: -40px;
+  }
+  .my-works .flap h2 {
+    font-size: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .my-works .project {
+    flex-direction: column;
+  }
+
+  .my-works .project .info-project,
+  .my-works .project .gallery {
+    width: 80%;
+    /* background-color: red; */
+  }
+  .my-works .project .gallery {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  .my-works .project .gallery .others {
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .my-works .project .gallery .principal {
+    margin: 0;
+  }
+
+  .my-works > .button {
+    width: 50%;
+  }
+  .my-experiences .flap {
+    width: auto;
+    padding: 10px 15px;
+    right: 50%;
+    transform: translateX(50%);
+  }
+  .my-experiences .flap h2 {
+    font-size: 20px;
+  }
+  .my-experiences > h2 {
+    font-size: 35px;
+  }
+  .my-experiences .experiences {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .my-experiences .experiences .experience {
+    width: 70vw;
+    border-bottom: 1px solid #d5d5d5;
+    padding: 20px 0 40px;
+  }
+  .my-experiences .experiences .separator {
+    display: none;
+  }
+  .my-offers > h2 {
+    font-size: 35px;
+  }
+  .my-offers .offers {
+    grid-column-gap: 0px;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .my-offers .offers .offer {
+    width: 85vw;
+    justify-content: center;
+  }
+
+  .my-contact {
+    height: 170px;
+  }
+  .my-contact .contact h2 {
+    font-size: 35px;
+  }
+  .my-contact .contact .button {
+    font-size: 15px;
+    width: 210px;
+  }
+  .my-contact .contact .button img {
+    height: 40px;
+  }
+  .my-contact .contact .parts .part-1 {
+    width: 100px;
+  }
+  .my-contact .contact .parts .part-2 {
+    width: 60px;
+  }
+  .my-contact .contact .parts .part-3 {
+    width: 40px;
+  }
+  .my-contact .contact .parts .part-4 {
+    width: 50px;
+  }
+  .my-contact .contact .parts .part-5 {
+    width: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .my-contact .contact .parts .part-6 {
+    width: 50px;
+  }
+}
+
+@media (max-width: 480px) {
+  header a {
+    font-size: 16px;
+  }
+  .my-profile .profile-left {
+    bottom: 15%;
+  }
+  .my-profile .profile-right .socials .social h3 {
+    display: none;
+  }
+  .my-works {
+    padding: 10px 0;
+  }
+  .my-works > .button {
+    font-size: 16px;
+  }
+  .my-works .project .info-project,
+  .my-works .project .gallery {
+    width: 90%;
+  }
+  .my-works .project .info-project .button {
+    font-size: 16px;
+    width: 170px;
+  }
+  .my-works .project .info-project .button img {
+    height: 35px;
+  }
+  .my-experiences > h2 {
+    font-size: 28px;
+  }
+  .my-experiences .experiences .experience {
+    width: 80vw;
+  }
+  .my-experiences .experiences .experience .head-experience .job-name {
+    margin: 0 5px 0 20px;
+  }
+  .my-offers > h2 {
+    font-size: 28px;
+  }
+  .my-contact {
+    height: 120px;
+  }
+  .my-contact .contact {
+    padding: 45px 0 0;
+  }
+  .my-contact .contact h2 {
+    font-size: 28px;
+  }
+  .my-contact .contact .parts .part-1 {
+    right: 10px;
+    width: 70px;
+  }
+  .my-contact .contact .parts .part-2 {
+    top: 150px;
+    left: 20px;
+  }
+  .my-contact .contact .parts .part-3 {
+    left: 70px;
+  }
+  .my-contact .contact .parts .part-4 {
+    right: 100px;
+  }
+  .my-contact .contact .parts .part-5 {
+    bottom: 10px;
+  }
+  .my-contact .contact .parts .part-6 {
+    right: 50px;
+  }
+  footer a {
+    font-size: 16px;
+  }
+}

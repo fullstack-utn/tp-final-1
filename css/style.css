@@ -8,6 +8,9 @@
   font-style: normal;
 }
 
+html {
+  scroll-behavior: smooth;
+}
 /* --- Header --- */
 
 header {
@@ -36,13 +39,14 @@ header a {
   justify-content: center;
   align-items: center;
 
-  height: 80vh;
+  min-height: 80vh;
 }
 .my-profile .profile-left,
 .my-profile .profile-right {
-  width: 32%;
   margin: 0 20px;
-  /* background-color: lightblue; */
+}
+.my-profile .profile-left {
+  width: 600px;
 }
 .my-profile .profile-left h1,
 .my-profile .profile-left p,
@@ -97,6 +101,9 @@ header a {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 600px;
+  width: 600px;
+  /* background-color: red; */
 }
 .my-profile .profile-right > img {
   height: 535px;
@@ -105,14 +112,16 @@ header a {
   border: 10px solid white;
   border-top-left-radius: 1000px;
   border-top-right-radius: 1000px;
+  position: absolute;
+  z-index: 2;
 }
 .my-profile .profile-right .shadow {
   height: 535px;
   width: 405px;
   position: absolute;
-  left: 85px;
-  top: 25px;
-  z-index: -1;
+  left: 75px;
+  top: 50px;
+  z-index: 1;
   border-top-left-radius: 1000px;
   border-top-right-radius: 1000px;
   background-color: #e3dafe;
@@ -120,6 +129,7 @@ header a {
 .my-profile .profile-right .ball {
   position: absolute;
   border-radius: 50%;
+  z-index: 3;
 }
 .my-profile .profile-right .ball.rose {
   background-color: #ffbcc4;
@@ -155,7 +165,7 @@ header a {
 .my-profile .profile-right .ball.rose-2 {
   background-color: #ffbcc4;
   right: 150px;
-  bottom: -45px;
+  bottom: -5px;
   height: 27px;
   width: 27px;
 }
@@ -164,10 +174,11 @@ header a {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   position: absolute;
-  right: 15px;
-  bottom: 12px;
+  right: -55px;
+  bottom: 50px;
+  z-index: 4;
 }
 
 .my-profile .profile-right .socials .social {
@@ -199,7 +210,7 @@ header a {
 }
 .my-profile .profile-right .socials .social h3 {
   font-weight: normal;
-  font-size: 22px;
+  font-size: 18px;
   padding: 0 10px;
   margin-left: 10px;
   color: black;
@@ -304,7 +315,7 @@ header a {
   padding: 25px 0;
 }
 .my-works .project .info-project .button {
-  width: 230px;
+  width: 240px;
   margin: 35px 0 0;
   display: flex;
   justify-content: space-around;
