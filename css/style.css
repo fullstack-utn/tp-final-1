@@ -32,8 +32,11 @@ header a {
   color: #9d9c9c;
   padding: 0 22px;
   font-size: 22px;
+  transition: 0.5s all;
 }
-
+header a:hover {
+  color: #494949;
+}
 .my-profile {
   display: flex;
   justify-content: center;
@@ -83,6 +86,7 @@ header a {
   border-radius: 40px;
   text-decoration: none;
   color: black;
+  transition: 0.5s all;
 }
 .my-profile .profile-left .button img {
   height: 45px;
@@ -94,6 +98,8 @@ header a {
 
 .my-profile .profile-left .button:hover {
   cursor: pointer;
+  background-color: black;
+  color: white;
 }
 
 .my-profile .profile-right {
@@ -191,6 +197,13 @@ header a {
   border-radius: 50px;
   margin: 7px 0;
   text-decoration: none;
+  transition: 0.5s all;
+}
+.my-profile .profile-right .socials .social:hover {
+  background-color: #ab90ff;
+}
+.my-profile .profile-right .socials .social:hover h3 {
+  color: white;
 }
 
 .my-profile .profile-right .socials .social .icon-social {
@@ -214,6 +227,7 @@ header a {
   padding: 0 10px;
   margin-left: 10px;
   color: black;
+  transition: 0.5s all;
 }
 
 .my-works {
@@ -329,6 +343,7 @@ header a {
   text-decoration: none;
   color: black;
   align-self: flex-end;
+  transition: 0.5s all;
 }
 .my-works .project .info-project .button img {
   height: 45px;
@@ -337,6 +352,10 @@ header a {
   border-radius: 50%;
   margin-left: 15px;
   transform: rotate(-90deg);
+}
+.my-works .project .info-project .button:hover {
+  background-color: black;
+  color: white;
 }
 
 .my-works > .button {
@@ -357,10 +376,13 @@ header a {
   text-decoration: none;
   color: black;
   align-self: flex-start;
+  transition: 0.5s all;
 }
 
 .my-works > .button:hover {
   cursor: pointer;
+  background-color: black;
+  color: white;
 }
 
 .my-experiences {
@@ -583,6 +605,7 @@ header a {
   border-radius: 40px;
   text-decoration: none;
   color: black;
+  transition: 0.5s all;
 }
 .my-contact .contact .button img {
   height: 45px;
@@ -594,6 +617,8 @@ header a {
 
 .my-contact .contact .button:hover {
   cursor: pointer;
+  background-color: black;
+  color: white;
 }
 .my-contact .contact .parts .part {
   position: absolute;
@@ -648,4 +673,8 @@ footer a {
   color: #9d9c9c;
   padding: 0 22px;
   font-size: 22px;
+  transition: 0.5s all;
+}
+footer a:hover {
+  color: #494949;
 }
